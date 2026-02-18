@@ -1,0 +1,39 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f6f9;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #2f4f6f;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.menu li:hover {
+  background-color: #3c6fa0;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
